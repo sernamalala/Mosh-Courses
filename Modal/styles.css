@@ -1,0 +1,59 @@
+/* This modal will cover the entire screen */
+/* To not view overlay at first set opacity to zero */
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: palegoldenrod;
+    opacity: 0;
+    z-index: -1;
+}
+.blue{
+    background-color: paleturquoise;
+    height: 60vh;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.main-container{
+    background-color: rgba(128, 128, 128, 0.571);
+    height: 50vh;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+h1{
+    font-size: 7em;
+    text-align: center;
+}
+
+.btn{
+    
+    border: none;
+    font-size: larger;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: plum;
+    color: white;
+}
+
+.modal-is-open .modal-overlay{
+
+    opacity: 1;
+    z-index: 1;
+}
+
+.x{
+    border-radius: 30px;
+    opacity: 0.6;
+}
+
+.x:hover{
+    background-color: black;
+    color: red;
+}
